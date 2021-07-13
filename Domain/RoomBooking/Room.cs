@@ -3,7 +3,7 @@ using Xunit;
 #endif
 using System;
 
-namespace RoomBooking
+namespace Domain.RoomBooking
 {
 	public class Room
 	{
