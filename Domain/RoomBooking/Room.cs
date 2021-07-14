@@ -7,10 +7,10 @@ namespace Domain.RoomBooking
 {
 	public class Room
 	{
-		public Guid id { get; }
+		public Guid Id { get; }
 		public string Name { get; }
 		private Room(Guid id, string name) {
-			this.id = id;
+			Id = id;
 			Name = name;
 		}
 
