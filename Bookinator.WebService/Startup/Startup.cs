@@ -1,7 +1,7 @@
 using Bookinator.UseCases.RoomBooking.Contract;
 using Bookinator.UseCases.RoomBooking.Implementation;
 using Bookinator.UseCases.RoomBooking.Implementation.RepositoriesContracts;
-using Bookinator.UseCases.RoomBooking.Implementation.InMemoryRepositories;
+using Bookinator.WebService.UseCases.RoomBooking.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
